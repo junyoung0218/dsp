@@ -118,7 +118,8 @@ echo "HELLO WORLD" > test_file.txt
 Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
-> Hint: we learned how to list all the files up above.
+> Hint: we learned how to list all the files up above. 
+  Answer: The "Hello World" is now saved in the test_file.txt so nothing is showing up.
 
 The greater than says, "put that output into the following file instead."
 
