@@ -4,9 +4,13 @@
 A: Yes the graph of both cdf and pmf shows that the distribution in uniform.
 
 import numpy as np
+
 rand = np.random.random(1000)
+
 cdf = thinkstats2.Cdf(rand)
+
 pmf = thinkstats2.Pmf(rand)
 
 thinkplot.cdf(cdf)
+
 thinkplot.pmf(pmf)
