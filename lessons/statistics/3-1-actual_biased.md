@@ -10,12 +10,12 @@ resp1 = thinkstats2.Pmf(respo, label='actual')
 
 
 biased_resp1 = biasresp1(resp1, label = 'observed')
-thinkplot.PrePlot(2)
-thinkplot.Pmfs([resp1, biased_resp1])
-thinkplot.Show(xlabel='number of children', ylabel = 'pmf')
-print(resp1.Mean())
-print(biased_resp1.Mean())
 
+thinkplot.PrePlot(2)
+
+thinkplot.Pmfs([resp1, biased_resp1])
+
+thinkplot.Show(xlabel='number of children', ylabel = 'pmf')
 
 mean = 1.024205155043831
 mean = 2.403679100664282
